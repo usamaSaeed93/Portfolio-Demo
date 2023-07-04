@@ -1,0 +1,115 @@
+.upper-card{
+    display: flex;
+    flex-direction: row;
+}
+.card-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.header {
+    
+    overflow: hidden;
+    height: 40px;
+    position: relative;
+    width:100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  
+    div {
+      display: flex;
+      flex-direction: row;
+     justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      width: 90%;
+      height: 65px;
+      transform: translate(100%, 0);
+  
+      p {
+        font-family: 'Roboto', sans-serif;
+      color: #808080;
+        // text-transform: uppercase;
+      }
+      img{
+        height: 60px;
+      }
+    }
+  
+    .ticker-wrapper__first-half, .ticker-wrapper__second-half {
+      display: flex;
+      flex-direction: row;
+      
+      // justify-content: space-around;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      animation: ticker 4s infinite linear forwards;
+    }
+  
+    .ticker-wrapper__second-half {
+      animation: 4s ticker 4s/2 infinite linear forwards;
+    }
+  }
+  
+  @keyframes ticker {
+    0% {
+      transform: translate(70%, 0);
+    }
+  
+    50% {
+      transform: translate(0, 0);
+    }
+  
+    100% {
+      transform: translate(-70%, 0);
+    }
+  }
+   .running-lower{
+    display: flex;
+    flex-direction: row;
+   }
+  .credentials {
+ 
+  width: 300px;
+    height: 300px;
+  }
+  .projects{
+   
+    width: 300px;
+      height: 300px;
+  }
+  .w-background-image{
+    width: 100%;
+    height: 70%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  .cred{
+    background-image: url(../Assets/Images/Signature-James-Doe-removebg-preview.png
+);
+  }
+  .proj{
+    background-image: url(../Assets/Images/Dell-XPS-15-9510_20220504-173539_full-removebg-preview.png);
+  }
+
+  .lower{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    span{
+      color: #212121;
+      font-size: 16px;
+    }
+    p{
+      color: grey;
+      font-size: 20px;
+    }
+  }

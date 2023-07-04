@@ -1,0 +1,28 @@
+nav{
+
+   display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+
+    div{
+      display: flex;
+    
+      justify-content: space-around;
+      gap: 40px;
+      align-items: center;
+      
+    }
+    span{
+      display: inline-block;
+      transition: .3s;
+      border-radius: 16px;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 12px 30px;
+
+    }
+}
+
+
+
