@@ -1,10 +1,11 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import hero from "../Assets/Images/Screenshot from 2023-06-08 17-51-48.png";
-import "../Components_sass/_home.scss";
+import hero from '../../Assets/Images/Screenshot from 2023-06-08 17-51-48.png';
+import '../Components_sass/_home.scss'
 import Middle from "./Middle";
 import { Box } from "@mui/material";
+import Footer from "@/layout/Footer";
 function Home() {
   //
   return (

@@ -1,5 +1,5 @@
 "use client";
-import "../../Components_sass/about.scss";
+import "../../components/Components_sass/_home.scss";
 import image from "../../Assets/Images/gibraltar-ocean-boy-gradient.jpg";
 import { motion } from "framer-motion";
 import SportsBasketballOutlinedIcon from "@mui/icons-material/SportsBasketballOutlined";
@@ -17,6 +17,9 @@ export default function page() {
   return (
     <>
       <Navbar />
+      <div className="w-[85%] m-auto mt-14">
+
+      
       <div className="flex flex-col justify-center  w-full">
         <motion.div
           whileInView={{ opacity: 1, scale: 1, x: -25, y: -20 }}
@@ -42,10 +45,10 @@ export default function page() {
               <div className="flex justify-center flex-col   dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] ">
                 <Image src={clip} alt="clip" />
 
-                <h2 className="text-4xl md:text-6xl dark:text-white text-white p-5 text-black dark:text-[#fff]">
+                <h2 className="text-4xl md:text-6xl dark:text-white  p-5 text-black ">
                   Usama Saeed
                 </h2>
-                <p className="text-1xl break-words  md:text-1xl dark:text-white text-white p-5 text-black dark:text-[#fff] w-[100%]">
+                <p className="text-1xl break-words  md:text-1xl dark:text-white  p-5 text-black  w-[100%]">
                   I am a San francisco-based product designer with a focus on
                   web design, illustration, a visual development. I have a
                   diverse range of experience having worked across various
@@ -199,6 +202,7 @@ export default function page() {
             </div>
           </div>
         </motion.div>
+      </div>
       </div>
       </div>
     </>

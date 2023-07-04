@@ -7,6 +7,7 @@ import image1 from "../../Assets/Images/Project Images/project3.jpeg";
 import image2 from "../../Assets/Images/Project Images/project4.jpeg";
 import image3 from "../../Assets/Images/Project Images/project5.jpeg";
 import image4 from "../../Assets/Images/Project Images/project6.jpeg";
+import Footer from "@/layout/Footer";
 function page() {
     return (
         <>
@@ -158,6 +159,7 @@ function page() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }

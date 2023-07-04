@@ -5,7 +5,7 @@ import { useState , useEffect } from 'react'
 import logo from '../Assets/Images/28258-8-nike-logo-transparent-background.png'
 import Image from 'next/image'
 import Switch from '@mui/material/Switch';
-import '../Components_sass/navbar.scss'
+import '../components/Components_sass/navbar.scss'
 import { useRouter } from 'next/router';
 import ThemeToggle from './ThemeToggle'
 function Navbar() {

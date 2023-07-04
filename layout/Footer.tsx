@@ -9,7 +9,7 @@ function Footer() {
                     <h1 className='text-5xl text-[#000] dark:text-[#fff]'>Grid<span className=' text-5xl' >X</span></h1>
                 </Link>
   
-  <div className='nav-links text-[#000] flex dark:text-[#fff] justify-center items-center w-1/2 gap-10 mb-14'>
+  <div className=' text-[#000] flex dark:text-[#fff] justify-center items-center w-1/2 gap-10 mb-14'>
                     <Link href='/'>
                         Home
                     </Link>

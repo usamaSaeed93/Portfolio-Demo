@@ -1,15 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import "../Components_sass/_home.scss";
+// import '../Components_sass/_home'
 import { motion } from "framer-motion";
-import clip from "../Assets/Images/clip.png";
+import clip from "../../Assets/Images/clip.png";
 import CameraAltOutlinedIcon from "@mui/icons-material/CameraAltOutlined";
 import DrawOutlinedIcon from "@mui/icons-material/DrawOutlined";
 import PaletteOutlinedIcon from "@mui/icons-material/PaletteOutlined";
 import DevicesOutlinedIcon from "@mui/icons-material/DevicesOutlined";
 import SportsBasketballOutlinedIcon from "@mui/icons-material/SportsBasketballOutlined";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import iconAni from "../Assets/Images/iconAni.png";
+import iconAni from "../../Assets/Images/iconAni.png";
 import CameraIcon from "@mui/icons-material/Camera";
 import CreateIcon from "@mui/icons-material/Create";
 import PaletteIcon from "@mui/icons-material/Palette";
