@@ -29,3 +29,21 @@ body {
 .bg__change{
   /* @apply  */
 }
+.box{
+  display: flex;
+  flex-direction: row;
+}
+.box:nth-child(2){
+  order: 3;
+}
+.box:nth-child(3){
+  order: 2;
+}
+@media screen and (max-width:900px){
+.box:nth-child(2){
+  order: 3;
+}
+.box:nth-child(3){
+  order: 2;
+}
+}

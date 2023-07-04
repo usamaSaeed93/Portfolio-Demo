@@ -11,7 +11,7 @@ module.exports = {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
-      'md': '820px',
+      'md': '900px',
       // => @media (min-width: 768px) { ... }
 
       'lg': '1024px',
@@ -30,7 +30,11 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        white: '#FFFFFF',
+        white: {
+          DEFAULT: '#ffffff', // Default white color
+          '5': 'rgba(255, 255, 255, 0.05)', // White with 5% opacity
+          '30': 'rgba(255, 255, 255, 0.3)', // White with 30% opacity
+        },
       },
     },
     fontFamily:{
