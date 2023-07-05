@@ -23,6 +23,7 @@ const ThemeToggle: React.FC = () => {
       }
       if (typeof window !== 'undefined') {
         let myVariable = localStorage.getItem('dark') 
+        console.log(myVariable)
         if(myVariable=="False"){
           document.documentElement.classList.remove('dark');
         }

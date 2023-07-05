@@ -9,6 +9,9 @@ import '../components/Components_sass/navbar.scss'
 import { useRouter } from 'next/router';
 import ThemeToggle from './ThemeToggle'
 function Navbar() {
+    function handleTheme(){
+        document.documentElement.classList.remove("dark")
+    }
     return (
         <>
             <nav className='mb-[5.5rem] hidden md:flex flex-col md:flex-row'>
@@ -16,7 +19,7 @@ function Navbar() {
                     <h1 className='text-5xl text-[#000] dark:text-[#fff]'>Grid<span className=' text-5xl' >X</span></h1>
                 </Link>
                 <div className='nav-links text-[#000] dark:text-[#fff]'>
-                <Link href='/' className='text-black dark:text-white'>
+                <Link href='/' className='text-black dark:text-white' onClick={handleTheme}>
                         Home
                     </Link>
                     <Link href='/about' className='text-black dark:text-white'>
