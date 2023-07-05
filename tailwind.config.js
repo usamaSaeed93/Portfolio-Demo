@@ -35,6 +35,7 @@ module.exports = {
           '5': 'rgba(255, 255, 255, 0.05)', // White with 5% opacity
           '30': 'rgba(255, 255, 255, 0.3)', // White with 30% opacity
         },
+        black:"#000"
       },
     },
     fontFamily:{

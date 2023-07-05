@@ -15,15 +15,61 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
 body {
-
-
- font-family: 'Inter', sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
 .trick{
   justify-content: center;
 }
+.heading__text{
+  @apply 2xl:text-[72px] sm:text-[64px] text-[50px] font-extrabold;
+}
+/* .dark__gradient{
+  @apply  linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+} */
 
+.bg{
+  background:#323232;
 
+ background:linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+
+}
+.icons__text{
+  @apply 2xl:text-[72px] sm:text-[55px] text-[40px] text-[#f8f9fa];
+}
+.rough{
+  height: 250px;
+ 
+  width: min(300px,90%);
+  margin: auto;
+  max-height: fit-content;
+  min-height: fit-content;
+}
+@media screen and (max-width:800px){
+  .rough{
+    width: max(500px,40%);
+  }
+}
+@media screen and (max-width:500px){
+  .rough{
+    width: max(350px,100%);
+  }
+}
+.home__headings{
+     @apply 2xl:text-[40px] sm:text-[30px] text-[20px] text-black dark:text-white;
+}
+.home__writtings{
+  @apply 2xl:text-[30px] sm:text-[20px] text-[15px] text-[#535353];
+}
+.home__smallwrittings{
+  @apply  2xl:text-[20px] sm:text-[15px] text-[10px] text-[#535353] dark:text-[#535353];
+}
+.background__divs{
+  @apply bg-white dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient;
+}
+.home__writtings_divs{
+  @apply 2xl:text-[30px] sm:text-[20px] text-[15px] text-black dark:text-white;
+}
+.color__icons{
+@apply text-[#0d6efd] dark:text-white;
+}

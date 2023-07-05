@@ -11,21 +11,21 @@ import ThemeToggle from './ThemeToggle'
 function Navbar() {
     return (
         <>
-            <nav className='dark mb-[5.5rem] hidden md:flex flex-col md:flex-row'>
+            <nav className='mb-[5.5rem] hidden md:flex flex-col md:flex-row'>
                 <Link href='/'>
                     <h1 className='text-5xl text-[#000] dark:text-[#fff]'>Grid<span className=' text-5xl' >X</span></h1>
                 </Link>
                 <div className='nav-links text-[#000] dark:text-[#fff]'>
-                    <Link href='/'>
+                <Link href='/' className='text-black dark:text-white'>
                         Home
                     </Link>
-                    <Link href='/about'>
+                    <Link href='/about' className='text-black dark:text-white'>
                         About
                     </Link>
-                    <Link href='/projects'>
+                    <Link href='/projects' className='text-black dark:text-white'>
                         Works
                     </Link>
-                    <Link href='/contact-us'>
+                    <Link href='/contact-us' className='text-black dark:text-white'>
                         Contact
                     </Link>
                 </div>
@@ -35,16 +35,12 @@ function Navbar() {
                     </span>
                 </Link>
 
-                {/* <ThemeToggle /> */}
+                <ThemeToggle />
             </nav>
         </>
     )
 }
 
 export default Navbar
-                // <Switch
-                //     checked={checked}
-                //     onChange={handleChange}
-                //     inputProps={{ 'aria-label': 'controlled' }}
-                // />
+              
 

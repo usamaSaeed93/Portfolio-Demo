@@ -1,10 +1,11 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import { dark } from '@mui/material/styles/createPalette';
 
 const ThemeToggle: React.FC = () => {
   const [darkTheme, setDarkTheme] = useState(true);
-  const router = useRouter();
+  // const router = useRouter();
 
   const handleChangeTheme = () => {
     setDarkTheme((prevTheme) => !prevTheme);
@@ -12,23 +13,38 @@ const ThemeToggle: React.FC = () => {
 
   useEffect(() => {
     if (darkTheme) {
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('dark', 'True');
+      }
       document.documentElement.classList.add('dark');
     } else {
-      document.documentElement.classList.remove('dark');
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('dark', 'False');
+      }
+      if (typeof window !== 'undefined') {
+        let myVariable = localStorage.getItem('dark') 
+        if(myVariable=="False"){
+          document.documentElement.classList.remove('dark');
+        }
+      }
+
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('dark', 'False');
+      }
     }
   }, [darkTheme]);
 
-  useEffect(() => {
-    const handleRouteChange = () => {
-      setDarkTheme(true);
-    };
+  // useEffect(() => {
+  //   const handleRouteChange = () => {
+  //     setDarkTheme(true);
+  //   };
 
-    router.events.on('routeChangeStart', handleRouteChange);
+  //   router.events.on('routeChangeStart', handleRouteChange);
 
-    return () => {
-      router.events.off('routeChangeStart', handleRouteChange);
-    };
-  }, [router]);
+  //   return () => {
+  //     router.events.off('routeChangeStart', handleRouteChange);
+  //   };
+  // }, [router]);
 
   return (
     <div>

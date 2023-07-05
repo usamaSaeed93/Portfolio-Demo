@@ -16,6 +16,12 @@ type dataType = {
   Subject: string
   Message: string
 }
+if (typeof window !== 'undefined') {
+  let myVariable = localStorage.getItem('dark') 
+  if(myVariable==="False"){
+    document.documentElement.classList.remove('dark');
+  }
+}
 export default function ContactUs() {
   const sendData = async (record: dataType) => {
     const { Name, Email, Subject, Message } = record;

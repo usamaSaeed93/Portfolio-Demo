@@ -9,6 +9,12 @@ import image3 from "../../Assets/Images/Project Images/project5.jpeg";
 import image4 from "../../Assets/Images/Project Images/project6.jpeg";
 import Footer from "@/layout/Footer";
 function page() {
+    if (typeof window !== 'undefined') {
+        let myVariable = localStorage.getItem('dark') 
+        if(myVariable==="False"){
+          document.documentElement.classList.remove('dark');
+        }
+      }
     return (
         <>
             <Navbar />
@@ -23,7 +29,7 @@ function page() {
                         <h1 className="m-auto text-6xl text-[#808080] flex md:hidden my-10 ">
                             All Projects
                         </h1>
-                        <div className="flex flex-col rounded-[30px] w-[366px] h-[400px] dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient justify-center align-top ">
+                        <div className="flex flex-col rounded-[30px] w-[366px] h-[400px] bg justify-center align-top ">
                             <Image
                                 src={image1}
                                 alt="none"
