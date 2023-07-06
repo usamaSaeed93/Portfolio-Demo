@@ -4,7 +4,7 @@ import Image from 'next/image'
 import clip from '../../Assets/Images/clip.png'
 import Navbar from '@/layout/Navbar'
 import { SubmitHandler } from 'react-hook-form';
-import { app, database } from '../../firebaseConfig';
+import {  database } from '../../firebaseConfig';
 import { useEffect, useState } from 'react'
 import { useForm } from "react-hook-form";
 import { collection, addDoc, getDocs } from 'firebase/firestore';

@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='dark bg-gradient-to-b from-lightPrimaryGradient to-lightSecondaryGradient dark:bg-[#0f0f0f]'>
+    <html lang="en" className=' bg-gradient-to-b from-lightPrimaryGradient to-lightSecondaryGradient dark:bg-[#0f0f0f]'>
       <body className=' dark:bg-[#0f0f0f]' >{children}</body>
     </html>
   )
