@@ -41,11 +41,13 @@ module.exports = {
     fontFamily:{
       body:[ 'Inter', 'sans-serif']
     },colors:{
+    
     darkPrimaryGradient:"#131313",
     darkSecondaryGradient:"#202020",
     darkBackground:"0f0f0f",
-    lightBackground:"#f7f9fc",
-    lightGradient:"#fff"
+    lightPrimaryGradient:"#0d3046",
+    lightSecondaryGradient:"#10172a",
+    lightGradient:"#131b30"
     }
   },
   plugins: [],

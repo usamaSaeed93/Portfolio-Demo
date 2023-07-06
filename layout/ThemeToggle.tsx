@@ -51,9 +51,9 @@ const ThemeToggle: React.FC = () => {
     <div>
       <label>
         <input type="checkbox" checked={darkTheme} onChange={handleChangeTheme} />
-        Toggle Dark Theme
+      
       </label>
-      <p>Current Theme: {darkTheme ? 'Dark' : 'Light'}</p>
+    
     </div>
   );
 };

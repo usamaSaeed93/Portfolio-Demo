@@ -34,7 +34,7 @@ function Middle() {
           <div className="flex flex-col gap-8  background__divs rounded-[30px] rough order-1">
             <Image src={iconAni} alt="none" />
             <div className="flex flex-col gap-1">
-              <span className="text-[#000] dark:text-[#fff] text-3xl pl-10">
+              <span className="text-[#fff] text-3xl pl-10">
                 Blog
               </span>
             </div>
@@ -67,8 +67,8 @@ function Middle() {
             <h3 className="home__smallwrittings">Specialization</h3>
             <h3 className="home__writtings_divs">Services Offerings</h3>
           </div>
-            <div className="w-8 h-8 bg-white rounded-full hover:bg-white transition-colors">
-              <ArrowForwardIosIcon className="w-4 h-4 text-white" />
+            <div className="w-8 h-8  rounded-full hover:bg-white transition-colors">
+              <ArrowForwardIosIcon className="w-4 h-4 text-[#09aaf3]" />
             </div>
           </div>
         </motion.div>
@@ -93,10 +93,10 @@ function Middle() {
               </div>
             </div>
             <div className="flex flex-col gap-1 ml-3">
-              <span className="text-[#000] dark:text-[#fff] text-1xl mt-4">
+              <span className="text-[#fff] text-1xl mt-4">
                 Stay with Me
               </span>
-              <span className="text-[#000] dark:text-[#fff] text-3xl ">
+              <span className="text-[#fff] text-3xl ">
                 Projects
               </span>
             </div>
@@ -144,16 +144,16 @@ function Middle() {
       >
         <div className="flex items-center justify-evenly space-x-4 mt-10 ">
           <div className="flex items-center justify-center w-12 h-12  rounded-full">
-            <CameraIcon className="icons__text text-white" />
+            <CameraIcon className="icons__text " />
           </div>
           <div className="flex items-center justify-center w-12 h-12  rounded-full">
-            <CreateIcon className="icons__text text-white" />
+            <CreateIcon className="icons__text " />
           </div>
           <div className="flex items-center justify-center w-12 h-12  rounded-full">
-            <PaletteIcon className="icons__text text-white" />
+            <PaletteIcon className="icons__text " />
           </div>
           <div className="flex items-center justify-center w-12 h-12  rounded-full">
-            <PhoneAndroidIcon className="icons__text text-white" />
+            <PhoneAndroidIcon className="icons__text " />
           </div>
         </div>
         <div className="mt-8 flex items-baseline justify-between p-6 ">
@@ -175,17 +175,17 @@ function Middle() {
           transition={{ ease: "easeIn", duration: 0.5, bounce: 0.5 }}
           className="sm:max-w-[550px] w-[90%]  flex h-[200px] flex-row justify-between background__divs rounded-[30px]"
         >
-          <div className="w-[100px] h-[150px]  flex-col text-sm p-5 dark:text-[#fff] justify-center flex bg-#f7f9fc  dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] m-auto">
+          <div className="w-[100px] h-[150px]  flex-col text-sm p-5 text-[#fff] justify-center flex bg-lightPrimaryGradient  dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] m-auto">
             <span>07</span>
             <br />
             <span>Years of Experience</span>
           </div>
-          <div className="w-[100px] h-[150px]  flex-col  text-sm  p-5 dark:text-[#fff] justify-center flex bg-#f7f9fc dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] m-auto">
+          <div className="w-[100px] h-[150px]  flex-col  text-sm  p-5 text-[#fff] justify-center flex bg-lightPrimaryGradient dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] m-auto">
             <span>07</span>
             <br />
             <span>Years of Experience</span>
           </div>
-          <div className="w-[100px] h-[150px]  flex-col  text-sm  p-5 dark:text-[#fff] justify-center flex bg-#f7f9fc dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] m-auto">
+          <div className="w-[100px] h-[150px]  flex-col  text-sm  p-5 text-[#fff] justify-center flex bg-lightPrimaryGradient dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] m-auto">
             <span>07</span>
             <br />
             <span>Years of Experience</span>
@@ -201,9 +201,9 @@ function Middle() {
         >
           <div className="flex flex-col pl-5">
             <Image src={clip} alt="clip" />
-            <h1 className="text-3xl text-[#000] dark:text-[#fff]">Let's </h1>
+            <h1 className="text-3xl text-[#fff]">Let's </h1>
             <br />
-            <h1 className="text-3xl text-[#000] dark:text-[#fff]">
+            <h1 className="text-3xl text-[#fff]">
               Work <span className="text-3xl text-[#5b78f6]">Together</span>
             </h1>
           </div>

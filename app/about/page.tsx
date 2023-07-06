@@ -45,14 +45,14 @@ export default function page() {
               </div>
 
               <div className="flex flex-col w-[80%] lg:w-[40%] md:w-[40%] justify-center m-auto ">
-                <h1 className="text-4xl md:5xl mb-3 m-auto mt-4">Summary</h1>
+                <h1 className="text-4xl md:5xl mb-3 m-auto mt-4 text-white">Summary</h1>
                 <div className="flex justify-center flex-col   background__divs rounded-[30px] ">
                   <Image src={clip} alt="clip" />
 
-                  <h2 className="text-4xl md:text-6xl dark:text-white  p-5 text-black ">
+                  <h2 className="text-4xl md:text-6xl text-white  p-5  ">
                     Usama Saeed
                   </h2>
-                  <p className="text-1xl break-words  md:text-1xl dark:text-white  p-5 text-black  w-[100%]">
+                  <p className="text-1xl break-words  md:text-1xl text-white  p-5   w-[100%]">
                     I am a San francisco-based product designer with a focus on
                     web design, illustration, a visual development. I have a
                     diverse range of experience having worked across various
@@ -70,25 +70,25 @@ export default function page() {
               transition={{ ease: "easeIn", duration: 0.5, bounce: 0.5 }}
             >
               <div className="flex flex-col justify-start p-8 background__divs rounded-[30px] m-auto lg:w-[550px] ml-[50px]">
-                <h1 className="text-4xl  text-[#60a5fa] dark:text-[#9ca3af] ">
+                <h1 className="text-2xl  text-[#60a5fa] dark:text-[#9ca3af] ">
                   Experience
                 </h1>
-                <span className="text-2xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
                   2017-2023
                 </span>
-                <h1 className="text-4xl  text-[#60a5fa] dark:text-[#9ca3af]  pb-2">
+                <h1 className="text-2xl  text-[#60a5fa] dark:text-[#9ca3af]  pb-2">
                   Frontend Developer
                 </h1>
-                <span className="text-2xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
                   Bluebase Designs
                 </span>
-                <span className="text-2xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
                   2017-2023
                 </span>
-                <h1 className="text-4xl  text-[#60a5fa] dark:text-[#9ca3af]  pb-2">
+                <h1 className="text-2xl  text-[#60a5fa] dark:text-[#9ca3af]  pb-2">
                   Frontend Developer
                 </h1>
-                <span className="text-2xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
                   Bluebase Designs
                 </span>
               </div>
@@ -100,26 +100,26 @@ export default function page() {
               initial={{ opacity: 0, scale: 0.5 }}
               transition={{ ease: "easeIn", duration: 0.5, bounce: 0.5 }}
             >
-              <div className="flex flex-col justify-start p-8 background__divs rounded-[30px] m-auto lg:w-[550px] ml-[50px]  ">
-                <h1 className="text-4xl text-[#60a5fa] dark:text-[#9ca3af]">
+             <div className="flex flex-col justify-start p-8 background__divs rounded-[30px] m-auto lg:w-[550px] ml-[50px]">
+                <h1 className="text-2xl  text-[#60a5fa] dark:text-[#9ca3af] ">
                   Experience
                 </h1>
-                <span className="text-2xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
                   2017-2023
                 </span>
-                <h1 className="text-4xl text-[#60a5fa] dark:text-[#9ca3af] pb-2">
+                <h1 className="text-2xl  text-[#60a5fa] dark:text-[#9ca3af]  pb-2">
                   Frontend Developer
                 </h1>
-                <span className="text-2xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
                   Bluebase Designs
                 </span>
-                <span className="text-2xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
                   2017-2023
                 </span>
-                <h1 className="text-4xl text-[#60a5fa] dark:text-[#9ca3af] pb-2">
+                <h1 className="text-2xl  text-[#60a5fa] dark:text-[#9ca3af]  pb-2">
                   Frontend Developer
                 </h1>
-                <span className="text-2xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
                   Bluebase Designs
                 </span>
               </div>
@@ -144,11 +144,11 @@ export default function page() {
             >
               <div className="flex flex-col pl-5">
                 <Image src={clip} alt="clip" />
-                <h1 className="text-3xl text-[#000] dark:text-[#fff]">
+                <h1 className="text-3xl text-[#fff]">
                   Let's{" "}
                 </h1>
                 <br />
-                <h1 className="text-3xl text-[#000] dark:text-[#fff]">
+                <h1 className="text-3xl text-[#fff]">
                   Work <span className="text-3xl text-[#5b78f6]">Together</span>
                 </h1>
               </div>

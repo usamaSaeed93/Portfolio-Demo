@@ -41,17 +41,17 @@ function Home() {
 
           <div className="card-side  mt-3 border-solid rounded-[30px] flex-col sm:flex-wrap lg:w-[50%] w-[100%] h-fit">
             <div className="running-line">
-              <header className="header ticker-wrapper dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient">
-                <div className="ticker-wrapper__first-half">
-                  <p>Projects and description is enlisted</p>
+              <header className="header ticker-wrapper background__divs">
+                <div className="ticker-wrapper__first-half text-white dark:text-[#535353]">
+                  <p>Projects and description enlisted</p>
                   <br />
-                  <p>Projects and description is enlisted</p>
+                  <p>Projects and description enlisted</p>
                   <br />
                 </div>
-                <div className="ticker-wrapper__second-half">
-                  <p>Projects and description is enlisted</p>
+                <div className="ticker-wrapper__second-half text-white dark:text-[#535353]">
+                  <p>Projects and description enlisted</p>
                   <br />
-                  <p>Projects and description is enlisted</p>
+                  <p>Projects and description enlisted</p>
                   <br />
                 </div>
               </header>

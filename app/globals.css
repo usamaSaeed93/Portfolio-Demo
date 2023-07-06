@@ -56,20 +56,20 @@ body {
   }
 }
 .home__headings{
-     @apply 2xl:text-[40px] sm:text-[30px] text-[20px] text-black dark:text-white;
+     @apply 2xl:text-[40px] sm:text-[30px] text-[20px] text-[#09aaf3] dark:text-[#fff];
 }
 .home__writtings{
-  @apply 2xl:text-[30px] sm:text-[20px] text-[15px] text-[#535353];
+  @apply 2xl:text-[30px] sm:text-[20px] text-[15px] text-[#fff] dark:text-[#535353] ;
 }
 .home__smallwrittings{
-  @apply  2xl:text-[20px] sm:text-[15px] text-[10px] text-[#535353] dark:text-[#535353];
+  @apply  2xl:text-[20px] sm:text-[15px] text-[10px] text-[#fff] dark:text-[#535353];
 }
 .background__divs{
-  @apply bg-white dark:bg-gradient-to-bl from-darkPrimaryGradient to-darkSecondaryGradient;
+  @apply  bg-lightGradient border border-[#262e43] dark:bg-gradient-to-bl from-darkPrimaryGradient to-darkSecondaryGradient dark:border-none;
 }
 .home__writtings_divs{
-  @apply 2xl:text-[30px] sm:text-[20px] text-[15px] text-black dark:text-white;
+  @apply 2xl:text-[30px] sm:text-[20px] text-[15px] text-[#fff] dark:text-white;
 }
 .color__icons{
-@apply text-[#0d6efd] dark:text-white;
+@apply text-[#09aaf3] dark:text-white;
 }

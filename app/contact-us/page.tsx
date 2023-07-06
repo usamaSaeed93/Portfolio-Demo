@@ -54,11 +54,11 @@ export default function ContactUs() {
       </div>
 
 
-      <div className="flex flex-col w-fit p-10 bg-[#fff] dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] m-auto">
+      <div className="flex flex-col w-fit p-10 background__divs rounded-[30px] m-auto">
         <div className="flex flex-col justify-evenly">
           <div className="flex flex-row ">
-            <h1 className='text-3xl text-[#000] dark:text-[#fff]'>Let's </h1><br />
-            <h1 className='text-3xl text-[#000] dark:text-[#fff]'>Work <span className='text-3xl text-[#5b78f6]'>Together</span></h1>
+            <h1 className='text-3xl text-[#fff]'>Let's </h1><br />
+            <h1 className='text-3xl text-[#fff]'>Work <span className='text-3xl text-[#5b78f6]'>Together</span></h1>
             <Image
               src={clip}
               alt='clip'
@@ -69,19 +69,19 @@ export default function ContactUs() {
             <div className="flex flex-col">
               <input
                 placeholder='Name *'
-                className='flex justify-start align-middle pl-5 w-[250px] md:w-[400px] rounded-[30px] bg-[#fff] dark:bg-gradient-to-t from-darkPrimaryGradient to-darkPrimaryGradient mt-10 h-[80px]'
+                className='flex justify-start align-middle pl-5 w-[250px] text-[#fff] md:w-[400px] rounded-[30px] bg-lightPrimaryGradient dark:bg-gradient-to-t from-darkPrimaryGradient to-darkPrimaryGradient mt-10 h-[80px]'
                 {...register("Name", {
                   required: "Name is required",
                   maxLength: { value: 10, message: "Valid length exceeded" }
                 })}
               />
 
-              <input type="text" placeholder='Email *' className='flex justify-start align-middle pl-5 w-[250px] md:w-[400px] rounded-[30px] bg-[#fff] dark:bg-gradient-to-t from-darkPrimaryGradient to-darkPrimaryGradient mt-10 h-[80px]'
+              <input type="text" placeholder='Email *' className='flex justify-start align-middle pl-5 w-[250px] md:w-[400px] rounded-[30px] text-[#fff] bg-lightPrimaryGradient dark:bg-gradient-to-t from-darkPrimaryGradient to-darkPrimaryGradient mt-10 h-[80px]'
                 {...register("Email", { required: "Email is required", pattern: { value: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g, message: "Not valid pattern" } })}
               />
-              <input type="text" placeholder='Your Subject *' className='flex justify-start align-middle pl-5 w-[250px] md:w-[400px] rounded-[30px] bg-[#fff] dark:bg-gradient-to-t from-darkPrimaryGradient to-darkPrimaryGradient mt-10 h-[80px]' {...register('Subject')} />
-              <input type="text" placeholder='Message *' className='flex justify-start align-top pl-5 w-[250px] md:w-[400px] rounded-[30px] bg-[#fff] dark:bg-gradient-to-t from-darkPrimaryGradient to-darkPrimaryGradient mt-10 h-[100px]' {...register('Message')} />
-              <button type="submit" className='w-full rounded-[30px] bg-[#fff] dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient h-10 text-[#808080] mt-5' >Send Message</button>
+              <input type="text" placeholder='Your Subject *' className='flex justify-start align-middle pl-5 w-[250px] md:w-[400px] rounded-[30px] text-[#fff] bg-lightPrimaryGradient mt-10 h-[80px]' {...register('Subject')} />
+              <input type="text" placeholder='Message *' className='flex justify-start align-top pl-5 w-[250px] md:w-[400px] rounded-[30px] bg-lightPrimaryGradient dark:bg-gradient-to-t from-darkPrimaryGradient to-darkPrimaryGradient text-[#fff] mt-10 h-[100px]' {...register('Message')} />
+              <button type="submit" className='w-full rounded-[30px] bg-lightPrimaryGradient dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient h-10 text-[#fff] mt-5' >Send Message</button>
             </div>
           </form>
         </div>
