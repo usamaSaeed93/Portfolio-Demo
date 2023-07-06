@@ -17,14 +17,14 @@ function Home() {
   return (
     <>
       <div className="flex flex-col ">
-        <div className="flex justify-center flex-col lg:flex-row font-body  w-100  mb-12 lg:mt-20 gap-4">
-          <div className="flex justify-center h-fit m-auto align-baseline flex-col sm:flex-row  gap-[40px] border-solid rounded-[30px]  background__divs ">
-            <div className="flex justify-center align-baseline p-6">
+        <div className="flex justify-center flex-col lg:flex-row font-body  w-full  mb-12 lg:mt-20 gap-4">
+          <div className="flex justify-center h-full m-auto  flex-col  sm:flex-row  gap-[40px] border-solid rounded-[30px]  background__divs md:w-[60%]">
+            <div className="flex justify-center align-baseline p-6 w-full">
               <Image
                 src={hero}
                 alt="none"
-                className="flex align-middle h-[250px] rounded-[30px]"
-                height={250}
+                className="flex align-middle h-full  rounded-[30px]"
+               width={260}
               />
             </div>
 

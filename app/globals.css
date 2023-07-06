@@ -16,7 +16,7 @@
   }
 }
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .trick{
   justify-content: center;
@@ -65,7 +65,7 @@ body {
   @apply  2xl:text-[20px] sm:text-[15px] text-[10px] text-[#535353] dark:text-[#535353];
 }
 .background__divs{
-  @apply bg-white dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient;
+  @apply bg-white dark:bg-gradient-to-bl from-darkPrimaryGradient to-darkSecondaryGradient;
 }
 .home__writtings_divs{
   @apply 2xl:text-[30px] sm:text-[20px] text-[15px] text-black dark:text-white;
