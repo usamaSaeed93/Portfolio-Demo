@@ -13,7 +13,6 @@ if (typeof window !== 'undefined') {
     document.documentElement.classList.remove('dark');
   }
 }
-
 export default function RootLayout({
   children,
 }: {

@@ -11,10 +11,10 @@ import me2 from "../../Assets/Images/me2.png";
 import clip from "../../Assets/Images/clip.png";
 import Footer from "@/layout/Footer";
 export default function page() {
-  if (typeof window !== 'undefined') {
-    let myVariable = localStorage.getItem('dark') 
-    if(myVariable==="False"){
-      document.documentElement.classList.remove('dark');
+  if (typeof window !== "undefined") {
+    let myVariable = localStorage.getItem("dark");
+    if (myVariable === "False") {
+      document.documentElement.classList.remove("dark");
     }
   }
   const iconStyle = {
@@ -30,11 +30,10 @@ export default function page() {
             viewport={{ once: true }}
             initial={{ opacity: 0, scale: 0.5 }}
             transition={{ ease: "easeIn", duration: 0.5, bounce: 0.5 }}
-            className="flex justify-center m-auto
-                "
+            className="flex justify-center m-auto"
           >
-            <div className="flex flex-col sm:flex-row justify-center align-baseline md:justify-evenly gap-x-[5%]">
-              <div className=" flex m-auto felx-col md:flex-row justify-center align-middle background__divs w-[320px] h-[280px] p-4 rounded-[30px] lg:w-[450px] lg:h-[420px] ">
+            <div className="flex flex-col sm:flex-row justify-center items-center  md:justify-evenly ">
+              <div className=" flex m-auto felx-col md:flex-row justify-center ml-[30px] items-center background__divs w-[320px] h-[280px] p-4 rounded-[30px] lg:w-[450px] lg:h-[420px] ">
                 <Image
                   src={me2}
                   alt="none"
@@ -44,51 +43,53 @@ export default function page() {
                 />
               </div>
 
-              <div className="flex flex-col w-[80%] lg:w-[40%] md:w-[40%] justify-center m-auto ">
-                <h1 className="text-4xl md:5xl mb-3 m-auto mt-4 text-white">Summary</h1>
-                <div className="flex justify-center flex-col   background__divs rounded-[30px] ">
+              <div className="flex flex-col w-[100%] lg:w-[80%] md:w-[80%] justify-center m-auto ">
+                <h1 className="text-4xl md:5xl mb-3 m-auto mt-4 text-white hidden md:flex">
+                  Summary
+                </h1>
+                <div className="flex justify-center flex-col ml-[30px] background__divs rounded-[30px] mt-10">
                   <Image src={clip} alt="clip" />
-
-                  <h2 className="text-4xl md:text-6xl text-white  p-5  ">
+                 
+                  <h2 className="text-4xl md:text-6xl text-white  p-2  ">
                     Usama Saeed
                   </h2>
-                  <p className="text-1xl break-words  md:text-1xl text-white  p-5   w-[100%]">
+                  <p className="text-1xl  md:text-1xl text-white  p-5 mb-2  w-11/12 md:w-full">
                     I am a San francisco-based product designer with a focus on
                     web design, illustration, a visual development. I have a
                     diverse range of experience having worked across various
                     fields and industries.
                   </p>
-                </div>
+                  </div>
               </div>
             </div>
           </motion.div>
-          <div className="flex flex-col sm:flex-row ml-auto justify-center md:justify-evenly items-center my-10 gap-y-10 gap-x-4">
+          <div className="flex flex-col sm:flex-row  justify-center md:justify-evenly items-center  my-10 gap-y-10 ">
             <motion.div
               whileInView={{ opacity: 1, scale: 1, x: -25, y: -20 }}
               viewport={{ once: true }}
               initial={{ opacity: 0, scale: 0.5 }}
               transition={{ ease: "easeIn", duration: 0.5, bounce: 0.5 }}
             >
-              <div className="flex flex-col justify-start p-8 background__divs rounded-[30px] m-auto lg:w-[550px] ml-[50px]">
+              <div className="flex flex-col justify-start p-8 background__divs rounded-[30px] m-auto lg:w-[600px] ml-[50px]">
                 <h1 className="text-2xl  text-[#60a5fa] dark:text-[#9ca3af] ">
                   Experience
                 </h1>
-                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-white dark:text-[#374151] pb-1 pt-1 ">
                   2017-2023
                 </span>
                 <h1 className="text-2xl  text-[#60a5fa] dark:text-[#9ca3af]  pb-2">
                   Frontend Developer
                 </h1>
-                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-white dark:text-[#374151] pb-1 pt-1 ">
                   Bluebase Designs
                 </span>
-                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-white dark:text-[#374151] pb-1 pt-1 ">
                   2017-2023
                 </span>
                 <h1 className="text-2xl  text-[#60a5fa] dark:text-[#9ca3af]  pb-2">
                   Frontend Developer
                 </h1>
-                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-white dark:text-[#374151] pb-1 pt-1 ">
                   Bluebase Designs
                 </span>
               </div>
@@ -100,26 +101,26 @@ export default function page() {
               initial={{ opacity: 0, scale: 0.5 }}
               transition={{ ease: "easeIn", duration: 0.5, bounce: 0.5 }}
             >
-             <div className="flex flex-col justify-start p-8 background__divs rounded-[30px] m-auto lg:w-[550px] ml-[50px]">
+              <div className="flex flex-col justify-start p-8 background__divs rounded-[30px] m-auto lg:w-[600px] ml-[50px]">
                 <h1 className="text-2xl  text-[#60a5fa] dark:text-[#9ca3af] ">
                   Experience
                 </h1>
-                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-white dark:text-[#374151] pb-1 pt-1 ">
                   2017-2023
                 </span>
                 <h1 className="text-2xl  text-[#60a5fa] dark:text-[#9ca3af]  pb-2">
                   Frontend Developer
                 </h1>
-                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-white dark:text-[#374151] pb-1 pt-1 ">
                   Bluebase Designs
                 </span>
-                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-white dark:text-[#374151] pb-1 pt-1 ">
                   2017-2023
                 </span>
                 <h1 className="text-2xl  text-[#60a5fa] dark:text-[#9ca3af]  pb-2">
                   Frontend Developer
                 </h1>
-                <span className="text-1xl text-[#374151] pb-5 pt-2 ">
+                <span className="text-1xl text-white dark:text-[#374151] pb-1 pt-1 ">
                   Bluebase Designs
                 </span>
               </div>
@@ -144,9 +145,7 @@ export default function page() {
             >
               <div className="flex flex-col pl-5">
                 <Image src={clip} alt="clip" />
-                <h1 className="text-3xl text-[#fff]">
-                  Let's{" "}
-                </h1>
+                <h1 className="text-3xl text-[#fff]">Let's </h1>
                 <br />
                 <h1 className="text-3xl text-[#fff]">
                   Work <span className="text-3xl text-[#5b78f6]">Together</span>

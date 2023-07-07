@@ -52,7 +52,7 @@ body {
 }
 @media screen and (max-width:500px){
   .rough{
-    width: max(350px,100%);
+    width: max(300px,100%);
   }
 }
 .home__headings{
@@ -72,4 +72,7 @@ body {
 }
 .color__icons{
 @apply text-[#09aaf3] dark:text-white;
+}
+.bars__divs{
+  @apply sm:w-max lg:max-w-[550px];
 }

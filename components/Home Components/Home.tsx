@@ -18,7 +18,7 @@ function Home() {
     <>
       <div className="flex flex-col ">
         <div className="flex justify-center flex-col lg:flex-row font-body  w-full  mb-12 lg:mt-20 gap-4">
-          <div className="flex justify-center h-full m-auto  flex-col  sm:flex-row  gap-[40px] border-solid rounded-[30px]  background__divs md:w-[60%]">
+          <div className="flex justify-center h-full m-auto  flex-col  sm:flex-row  border-solid rounded-[30px]  background__divs md:w-[60%]">
             <div className="flex justify-center align-baseline p-6 w-full">
               <Image
                 src={hero}
@@ -28,14 +28,14 @@ function Home() {
               />
             </div>
 
-            <div className="flex justify-center flex-col gap-[20px] p-4">
-              <div>
+            <div className="flex justify-center flex-col gap-[20px] lg:pr-10 items-start">
+             
                 <span className=" home__writtings">A web Designer</span>
                 <h2 className="home__headings">Usama Saeed</h2>
-                <p className=" home__writtings">
+                <p className=" home__writtings sm:w-max md:w-full">
                   I am a web developer based in Lahore
                 </p>
-              </div>
+             
             </div>
           </div>
 

@@ -173,22 +173,22 @@ function Middle() {
           viewport={{ once: true }}
           initial={{ opacity: 0, scale: 0.5 }}
           transition={{ ease: "easeIn", duration: 0.5, bounce: 0.5 }}
-          className="sm:max-w-[550px] w-[90%]  flex h-[200px] flex-row justify-between background__divs rounded-[30px]"
+          className="sm:max-w-[550px] w-[90%] flex-row flex h-[200px]  justify-between background__divs rounded-[30px]"
         >
-          <div className="w-[100px] h-[150px]  flex-col text-sm p-5 text-[#fff] justify-center flex bg-lightPrimaryGradient  dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] m-auto">
-            <span>07</span>
-            <br />
-            <span>Years of Experience</span>
+          <div className="w-[30%] sm:w-max h-[150px]  flex-col text-sm p-5 text-[#fff] justify-center flex bg-lightPrimaryGradient  dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] m-auto">
+            <span className="m-auto">07</span>
+            
+            <span className="text-8px md:font-extrabold md:text-[15px] mt-3 m-auto">Years of Experience</span>
           </div>
-          <div className="w-[100px] h-[150px]  flex-col  text-sm  p-5 text-[#fff] justify-center flex bg-lightPrimaryGradient dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] m-auto">
-            <span>07</span>
-            <br />
-            <span>Years of Experience</span>
+          <div className="w-[30%] sm:w-max h-[150px]  flex-col text-sm p-5 text-[#fff] justify-center flex bg-lightPrimaryGradient  dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] m-auto">
+            <span className="m-auto">07</span>
+            
+            <span className="text-8px md:font-extrabold md:text-[15px] mt-3 m-auto">Years of Experience</span>
           </div>
-          <div className="w-[100px] h-[150px]  flex-col  text-sm  p-5 text-[#fff] justify-center flex bg-lightPrimaryGradient dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] m-auto">
-            <span>07</span>
-            <br />
-            <span>Years of Experience</span>
+          <div className="w-[30%] sm:w-max h-[150px]  flex-col text-sm p-5 text-[#fff] justify-center flex bg-lightPrimaryGradient  dark:bg-gradient-to-t from-darkPrimaryGradient to-darkSecondaryGradient rounded-[30px] m-auto">
+            <span className="m-auto">07</span>
+            
+            <span className="text-8px md:font-extrabold md:text-[15px] mt-3 m-auto">Years of Experience</span>
           </div>
         </motion.div>
 
